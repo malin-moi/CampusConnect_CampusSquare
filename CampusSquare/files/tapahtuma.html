@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV-paja | CampusSquare</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="event">
+  <div class="ph"><img src="img/cv_paja_1280x720.png" alt="Resume"></div>
+    <a class="back" href="index.html" aria-label="Takaisin etusivulle">
+      <img src="svg/chevron-left-svgrepo-com.svg" alt="">
+    </a>
+
+<main class="wrap body">
+  <div class="fav">
+    <input type="checkbox" id="f" aria-label="Suosikki"><label for="f"></label>
+  </div>
+
+  <span class="tag">Ura- ja rekrytointipalvelut</span>
+
+  <h1>CV-paja</h1>
+  <ul class="info">
+    <li>&#128197; 22.10.2026</li>
+    <li>&#128339; klo 12.00 – 15.00</li>
+    <li>&#128205; Päärakennus, Huone 204</li>
+  </ul>
+
+  <div class="desc">
+    <p>Saat henkilökohtaista palautetta CV:stäsi ja hakemuksistasi. Asiantuntijat auttavat sinua erottumaan työnhaussa.</p>
+    <p>Ilmoittaudu etukäteen, paikkoja rajoitetusti.</p>
+  </div>
+
+  <a class="btn" href="#vahvista">Osallistu!</a>
+</main>
+
+<!-- Pop-up 1: confirm -->
+<div class="modal" id="vahvista">
+  <div class="box">
+    <a class="x" href="#" aria-label="Sulje">&times;</a>
+
+    <h3>Haluatko vahvistaa osallistumisesi tapahtumaan:</h3>
+
+    <div class="summary"><strong>CV-paja</strong>Ura- ja rekrytointipalvelut
+      <br>
+      <br>&#128205; Päärakennus, Huone 204
+      <br>&#128197; 22.10.2026
+      <br>&#128339; klo 12.00 – 15.00
+      <p>Voit myöhemmin perua osallistumisen omista tapahtumistasi.</p>
+    </div>
+
+    <a class="btn" href="#onnistui">Vahvista osallistuminen</a>
+  </div>
+</div>
+
+<!-- Pop-up 2: success -->
+<div class="modal" id="onnistui">
+  <div class="box">
+    <a class="x" href="#" aria-label="Sulje">&times;</a>
+
+    <h3>Osallistuminen onnistui!</h3>
+    <p style="margin:0;font-size:.85rem">Nähdään pian &#128522;</p>
+
+    <div class="summary"><strong>CV-paja</strong>Ura- ja rekrytointipalvelut
+      <br>
+      <br>&#128205; Päärakennus, Huone 204
+      <br>&#128197; 22.10.2026
+      <br>&#128339; klo 12.00 – 15.00
+    </div>
+    
+    <a class="btn" href="index.html">Takaisin etusivulle</a>
+    <a class="btn outline" href="profiili.html">Katso profiili</a>
+  </div>
+</div>
+
+</body>
+</html>
